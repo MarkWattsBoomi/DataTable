@@ -1,0 +1,119 @@
+.data-table {
+
+}
+
+.data-table-header {
+    display: flex;
+    flex-direction: row;
+    background-color: #111;
+}
+
+.data-table-header-title {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+}
+
+.data-table-header-title-label {
+    font-size: 18px;
+    color: #fefefe;
+    margin-left: 10px;
+}
+
+.data-table-header-buttons {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+}
+
+.data-table-header-navbuttons-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.data-table-header-navbuttons {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+    margin: auto;
+}
+
+
+.data-table-header-buttons-button {
+    color: #fefefe;
+    font-size: 24px;
+    margin: auto;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.data-table-header-buttons-button-dissabled {
+    color: #666;
+    cursor: not-allowed;
+}
+
+.data-table-header-buttons-label {
+    cursor: default;
+    color: #fefefe;
+    font-size: 24px;
+    margin: auto;
+    margin-right: 10px;
+}
+
+.data-table-header-buttons-button:hover {
+    color: #f0e32e;
+}
+
+.data-table-table-container {
+    overflow: auto;
+    height: 600px;
+    position: relative;
+}
+
+.dt {
+
+}
+
+.dt-th {
+
+}
+
+.dt-th-tr {
+    background-color: #4564a2;
+    position: sticky;
+    top: 0;
+
+}
+
+.dt-th-tr-th {
+    color: #fefefe;
+    font-weight: 300;
+    font-size: 14px;
+    padding: 10px !important;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    background-color: #4564a2;
+}
+
+.dt-tb {
+
+}
+
+.dt-tb-tr {
+
+}
+
+.dt-tb-tr-td {
+    padding: 10px !important;
+    text-align: center;
+}
+
+.dt-tb-tr-td-label {
+    font-size: 13px !important;
+}
+
+.dt-tb-tr-td-input {
+    font-size: 13px !important;
+}
